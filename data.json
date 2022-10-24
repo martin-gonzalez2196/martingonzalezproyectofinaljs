@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "modelo": "Volkswagen Gol Trend",
+        "precio": 1000,
+        "imagen": "./assets/images/goltrend.jpg"
+    },
+    {
+        "id": 2,
+        "modelo": "Renault Kwid",
+        "precio": 1000,
+        "imagen": "./assets/images/kwid.jpg"
+    },
+    {
+        "id": 3,
+        "modelo": "Renault Sandero",
+        "precio": 1000,
+        "imagen": "./assets/images/sandero.jpg"
+    },
+    {
+        "id": 4,
+        "modelo": "Fiat Argo",
+        "precio": 2000,
+        "imagen": "./assets/images/argo.jpg"
+    },
+    {
+        "id": 5,
+        "modelo": "Chevrolet Onix",
+        "precio": 2000,
+        "imagen": "./assets/images/onix.jpg"
+    },
+    {
+        "id": 6,
+        "modelo": "Chevrolet Prisma",
+        "precio": 2000,
+        "imagen": "./assets/images/prisma.jpg"
+    },
+    {
+        "id": 7,
+        "modelo": "Renault Alaskan",
+        "precio": 3000,
+        "imagen": "./assets/images/alaskan.jpg"
+    },
+    {
+        "id": 8,
+        "modelo": "Fiat Toro",
+        "precio": 3000,
+        "imagen": "./assets/images/toro.jpg"
+    },
+    {
+        "id": 9,
+        "modelo": "Chevrolet Spin",
+        "precio": 3000,
+        "imagen": "./assets/images/spin.jpg"
+    }
+]
