@@ -106,25 +106,6 @@ const carrito = (productoId) => {
     localStorage.setItem("Carrito",JSON.stringify(carritoVacio))
 }
 
-//función para que el boton BUSCAR DISPONIBILIDAD del INDEX.HTML guarde la info. en el LocalStorage y que a su vez, rediriga a la página de FLOTA.
-
-function callButton() {
-    const button = document.getElementById("buttonDisponibilidad");
-    button.addEventListener(`click`, () => {
-        const nombre = document.getElementById('nombreApellido').value
-        const correo = document.getElementById('correo').value
-        localStorage.setItem("userInfo",JSON.stringify(
-            {
-                nombre:nombre,
-                correo:correo
-            }
-        ))
-        window.location = "http://127.0.0.1:5500/flota.html"
-
-    })
-}
-callButton()
-
 //Función para que cuando el usuario aprete el boton CONFIRMAR RESERVA, devuelva un mensaje final con los datos del usuario guardados en el LocalStorage.
 
 function buttonConfirmReserva() {
